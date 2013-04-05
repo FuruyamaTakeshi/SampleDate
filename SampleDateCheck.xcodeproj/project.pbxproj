@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4447AEE170F87550011C98E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4447AED170F87550011C98E /* UIKit.framework */; };
+		A4447AF0170F87550011C98E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4447AEF170F87550011C98E /* Foundation.framework */; };
+		A4447AF2170F87550011C98E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4447AF1170F87550011C98E /* CoreGraphics.framework */; };
+		A4447AF8170F87550011C98E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4447AF6170F87550011C98E /* InfoPlist.strings */; };
+		A4447AFA170F87550011C98E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4447AF9170F87550011C98E /* main.m */; };
+		A4447AFE170F87550011C98E /* FTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4447AFD170F87550011C98E /* FTAppDelegate.m */; };
+		A4447B00170F87550011C98E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A4447AFF170F87550011C98E /* Default.png */; };
+		A4447B02170F87550011C98E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4447B01170F87550011C98E /* Default@2x.png */; };
+		A4447B04170F87550011C98E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4447B03170F87550011C98E /* Default-568h@2x.png */; };
+		A4447B07170F87550011C98E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4447B05170F87550011C98E /* MainStoryboard.storyboard */; };
+		A4447B0A170F87550011C98E /* FTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4447B09170F87550011C98E /* FTViewController.m */; };
+		A4447B12170F87560011C98E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4447B11170F87560011C98E /* SenTestingKit.framework */; };
+		A4447B13170F87560011C98E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4447AED170F87550011C98E /* UIKit.framework */; };
+		A4447B14170F87560011C98E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4447AEF170F87550011C98E /* Foundation.framework */; };
+		A4447B1C170F87560011C98E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4447B1A170F87560011C98E /* InfoPlist.strings */; };
+		A4447B1F170F87560011C98E /* SampleDateCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4447B1E170F87560011C98E /* SampleDateCheckTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4447B15170F87560011C98E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4447AE2170F87550011C98E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4447AE9170F87550011C98E;
+			remoteInfo = SampleDateCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4447AEA170F87550011C98E /* SampleDateCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleDateCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4447AED170F87550011C98E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4447AEF170F87550011C98E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4447AF1170F87550011C98E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4447AF5170F87550011C98E /* SampleDateCheck-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleDateCheck-Info.plist"; sourceTree = "<group>"; };
+		A4447AF7170F87550011C98E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4447AF9170F87550011C98E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4447AFB170F87550011C98E /* SampleDateCheck-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleDateCheck-Prefix.pch"; sourceTree = "<group>"; };
+		A4447AFC170F87550011C98E /* FTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAppDelegate.h; sourceTree = "<group>"; };
+		A4447AFD170F87550011C98E /* FTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAppDelegate.m; sourceTree = "<group>"; };
+		A4447AFF170F87550011C98E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A4447B01170F87550011C98E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A4447B03170F87550011C98E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A4447B06170F87550011C98E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A4447B08170F87550011C98E /* FTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTViewController.h; sourceTree = "<group>"; };
+		A4447B09170F87550011C98E /* FTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTViewController.m; sourceTree = "<group>"; };
+		A4447B10170F87560011C98E /* SampleDateCheckTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleDateCheckTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4447B11170F87560011C98E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A4447B19170F87560011C98E /* SampleDateCheckTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleDateCheckTests-Info.plist"; sourceTree = "<group>"; };
+		A4447B1B170F87560011C98E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4447B1D170F87560011C98E /* SampleDateCheckTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleDateCheckTests.h; sourceTree = "<group>"; };
+		A4447B1E170F87560011C98E /* SampleDateCheckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleDateCheckTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4447AE7170F87550011C98E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4447AEE170F87550011C98E /* UIKit.framework in Frameworks */,
+				A4447AF0170F87550011C98E /* Foundation.framework in Frameworks */,
+				A4447AF2170F87550011C98E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4447B0C170F87560011C98E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4447B12170F87560011C98E /* SenTestingKit.framework in Frameworks */,
+				A4447B13170F87560011C98E /* UIKit.framework in Frameworks */,
+				A4447B14170F87560011C98E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4447AE1170F87550011C98E = {
+			isa = PBXGroup;
+			children = (
+				A4447AF3170F87550011C98E /* SampleDateCheck */,
+				A4447B17170F87560011C98E /* SampleDateCheckTests */,
+				A4447AEC170F87550011C98E /* Frameworks */,
+				A4447AEB170F87550011C98E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4447AEB170F87550011C98E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4447AEA170F87550011C98E /* SampleDateCheck.app */,
+				A4447B10170F87560011C98E /* SampleDateCheckTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4447AEC170F87550011C98E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4447AED170F87550011C98E /* UIKit.framework */,
+				A4447AEF170F87550011C98E /* Foundation.framework */,
+				A4447AF1170F87550011C98E /* CoreGraphics.framework */,
+				A4447B11170F87560011C98E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4447AF3170F87550011C98E /* SampleDateCheck */ = {
+			isa = PBXGroup;
+			children = (
+				A4447AFC170F87550011C98E /* FTAppDelegate.h */,
+				A4447AFD170F87550011C98E /* FTAppDelegate.m */,
+				A4447B05170F87550011C98E /* MainStoryboard.storyboard */,
+				A4447B08170F87550011C98E /* FTViewController.h */,
+				A4447B09170F87550011C98E /* FTViewController.m */,
+				A4447AF4170F87550011C98E /* Supporting Files */,
+			);
+			path = SampleDateCheck;
+			sourceTree = "<group>";
+		};
+		A4447AF4170F87550011C98E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4447AF5170F87550011C98E /* SampleDateCheck-Info.plist */,
+				A4447AF6170F87550011C98E /* InfoPlist.strings */,
+				A4447AF9170F87550011C98E /* main.m */,
+				A4447AFB170F87550011C98E /* SampleDateCheck-Prefix.pch */,
+				A4447AFF170F87550011C98E /* Default.png */,
+				A4447B01170F87550011C98E /* Default@2x.png */,
+				A4447B03170F87550011C98E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4447B17170F87560011C98E /* SampleDateCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4447B1D170F87560011C98E /* SampleDateCheckTests.h */,
+				A4447B1E170F87560011C98E /* SampleDateCheckTests.m */,
+				A4447B18170F87560011C98E /* Supporting Files */,
+			);
+			path = SampleDateCheckTests;
+			sourceTree = "<group>";
+		};
+		A4447B18170F87560011C98E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4447B19170F87560011C98E /* SampleDateCheckTests-Info.plist */,
+				A4447B1A170F87560011C98E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4447AE9170F87550011C98E /* SampleDateCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4447B22170F87560011C98E /* Build configuration list for PBXNativeTarget "SampleDateCheck" */;
+			buildPhases = (
+				A4447AE6170F87550011C98E /* Sources */,
+				A4447AE7170F87550011C98E /* Frameworks */,
+				A4447AE8170F87550011C98E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleDateCheck;
+			productName = SampleDateCheck;
+			productReference = A4447AEA170F87550011C98E /* SampleDateCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4447B0F170F87560011C98E /* SampleDateCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4447B25170F87560011C98E /* Build configuration list for PBXNativeTarget "SampleDateCheckTests" */;
+			buildPhases = (
+				A4447B0B170F87560011C98E /* Sources */,
+				A4447B0C170F87560011C98E /* Frameworks */,
+				A4447B0D170F87560011C98E /* Resources */,
+				A4447B0E170F87560011C98E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4447B16170F87560011C98E /* PBXTargetDependency */,
+			);
+			name = SampleDateCheckTests;
+			productName = SampleDateCheckTests;
+			productReference = A4447B10170F87560011C98E /* SampleDateCheckTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4447AE2170F87550011C98E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = TF;
+			};
+			buildConfigurationList = A4447AE5170F87550011C98E /* Build configuration list for PBXProject "SampleDateCheck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4447AE1170F87550011C98E;
+			productRefGroup = A4447AEB170F87550011C98E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4447AE9170F87550011C98E /* SampleDateCheck */,
+				A4447B0F170F87560011C98E /* SampleDateCheckTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4447AE8170F87550011C98E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4447AF8170F87550011C98E /* InfoPlist.strings in Resources */,
+				A4447B00170F87550011C98E /* Default.png in Resources */,
+				A4447B02170F87550011C98E /* Default@2x.png in Resources */,
+				A4447B04170F87550011C98E /* Default-568h@2x.png in Resources */,
+				A4447B07170F87550011C98E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4447B0D170F87560011C98E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4447B1C170F87560011C98E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4447B0E170F87560011C98E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4447AE6170F87550011C98E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4447AFA170F87550011C98E /* main.m in Sources */,
+				A4447AFE170F87550011C98E /* FTAppDelegate.m in Sources */,
+				A4447B0A170F87550011C98E /* FTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4447B0B170F87560011C98E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4447B1F170F87560011C98E /* SampleDateCheckTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4447B16170F87560011C98E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4447AE9170F87550011C98E /* SampleDateCheck */;
+			targetProxy = A4447B15170F87560011C98E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4447AF6170F87550011C98E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4447AF7170F87550011C98E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A4447B05170F87550011C98E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4447B06170F87550011C98E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		A4447B1A170F87560011C98E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4447B1B170F87560011C98E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4447B20170F87560011C98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4447B21170F87560011C98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4447B23170F87560011C98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleDateCheck/SampleDateCheck-Prefix.pch";
+				INFOPLIST_FILE = "SampleDateCheck/SampleDateCheck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4447B24170F87560011C98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleDateCheck/SampleDateCheck-Prefix.pch";
+				INFOPLIST_FILE = "SampleDateCheck/SampleDateCheck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A4447B26170F87560011C98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleDateCheck.app/SampleDateCheck";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleDateCheck/SampleDateCheck-Prefix.pch";
+				INFOPLIST_FILE = "SampleDateCheckTests/SampleDateCheckTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A4447B27170F87560011C98E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleDateCheck.app/SampleDateCheck";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleDateCheck/SampleDateCheck-Prefix.pch";
+				INFOPLIST_FILE = "SampleDateCheckTests/SampleDateCheckTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4447AE5170F87550011C98E /* Build configuration list for PBXProject "SampleDateCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4447B20170F87560011C98E /* Debug */,
+				A4447B21170F87560011C98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4447B22170F87560011C98E /* Build configuration list for PBXNativeTarget "SampleDateCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4447B23170F87560011C98E /* Debug */,
+				A4447B24170F87560011C98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4447B25170F87560011C98E /* Build configuration list for PBXNativeTarget "SampleDateCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4447B26170F87560011C98E /* Debug */,
+				A4447B27170F87560011C98E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4447AE2170F87550011C98E /* Project object */;
+}

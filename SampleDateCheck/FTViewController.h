@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface FTViewController : UIViewController
+@property (retain, nonatomic) IBOutlet UILabel *timeLabel;
+@property (retain, nonatomic) IBOutlet UILabel *startDateLabel;
+
+@property (retain, nonatomic) IBOutlet UIButton *dateCheckButton;
+@property (retain, nonatomic) IBOutlet UILabel *endDateLabel;
+- (IBAction)dateCheckButtonDidPush:(id)sender;
 
 @end

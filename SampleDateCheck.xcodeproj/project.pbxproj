@@ -23,6 +23,7 @@
 		A4447B14170F87560011C98E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4447AEF170F87550011C98E /* Foundation.framework */; };
 		A4447B1C170F87560011C98E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4447B1A170F87560011C98E /* InfoPlist.strings */; };
 		A4447B1F170F87560011C98E /* SampleDateCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4447B1E170F87560011C98E /* SampleDateCheckTests.m */; };
+		A4447B2A170F87EB0011C98E /* RCUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A4447B29170F87EB0011C98E /* RCUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		A4447B1B170F87560011C98E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4447B1D170F87560011C98E /* SampleDateCheckTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleDateCheckTests.h; sourceTree = "<group>"; };
 		A4447B1E170F87560011C98E /* SampleDateCheckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleDateCheckTests.m; sourceTree = "<group>"; };
+		A4447B28170F87EB0011C98E /* RCUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCUtility.h; sourceTree = "<group>"; };
+		A4447B29170F87EB0011C98E /* RCUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCUtility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 		A4447AF3170F87550011C98E /* SampleDateCheck */ = {
 			isa = PBXGroup;
 			children = (
+				A4447B28170F87EB0011C98E /* RCUtility.h */,
+				A4447B29170F87EB0011C98E /* RCUtility.m */,
 				A4447AFC170F87550011C98E /* FTAppDelegate.h */,
 				A4447AFD170F87550011C98E /* FTAppDelegate.m */,
 				A4447B05170F87550011C98E /* MainStoryboard.storyboard */,
@@ -274,6 +279,7 @@
 				A4447AFA170F87550011C98E /* main.m in Sources */,
 				A4447AFE170F87550011C98E /* FTAppDelegate.m in Sources */,
 				A4447B0A170F87550011C98E /* FTViewController.m in Sources */,
+				A4447B2A170F87EB0011C98E /* RCUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
